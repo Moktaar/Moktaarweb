@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recon Module - Moktar</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🧠 Recon Module</h1>
+    <p>Explore reconnaissance tools and techniques for ethical hacking and digital awareness.</p>
+  </header>
+
+  <section class="recon-tools">
+    <h2>🔍 Tools & Commands</h2>
+    <ul>
+      <li><strong>whois</strong> — Domain ownership and registration info</li>
+      <li><strong>nslookup</strong> — DNS record lookup</li>
+      <li><strong>dig</strong> — Advanced DNS queries</li>
+      <li><strong>theHarvester</strong> — Email, subdomain, and name harvesting</li>
+      <li><strong>sublist3r</strong> — Subdomain enumeration</li>
+      <li><strong>nmap</strong> — Network scanning and port discovery</li>
+    </ul>
+
+    <h2>💻 Sample Command Block</h2>
+    <pre><code class="bash">
+# Passive recon using theHarvester
+theHarvester -d example.com -b all
+
+# Subdomain enumeration
+sublist3r -d example.com
+
+# Port scan with Nmap
+nmap -sV -T4 -p- example.com
+    </code></pre>
+  </section>
+
+  <footer>
+    <p><a href="../index.html">⬅️ Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
